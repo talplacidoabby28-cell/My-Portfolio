@@ -1,0 +1,227 @@
+.topbar {
+  width: 100%;
+  position: relative;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #0a1e1e;
+  color: rgb(149, 184, 177);
+  font-family: 'Geneva', sans-serif;
+  margin: 0;
+
+}
+.site-brand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #021a1a;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 0 24px;
+  margin-left: auto;
+  width: 100%;
+}
+
+.topbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: nowrap;
+  margin-left: 70px;
+}
+
+.topbar-brand img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+
+.topbar-brand h2 {
+  margin: 0;
+  white-space: nowrap;
+  font-size: clamp(1rem, 3vw, 1.6rem);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.welcome{
+  position: relative;
+  min-height: 300px;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  isolation: isolate;
+}
+
+.welcome video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.welcome h2 {
+  position: relative;
+  z-index: 1;
+  width: auto;
+  padding: 16px 24px;
+  color: rgb(190, 255, 246);
+  text-shadow: 1px 2px 8px rgb(1, 15, 13), 0 0 25px rgb(17, 204, 198), 0 0 5px rgb(241, 255, 254);
+  font-family: "Bungee Hairline", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  font-style: normal;
+}
+
+
+
+h2 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+h2 span {
+  display: inline-block;
+  color: rgb(149, 184, 177);
+  margin: 0;
+  padding: 14px 0 12px 0;
+  background-color: #0a1e1e;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+div .site-brand h2 span{
+  background-color: #021a1a;
+}
+
+.site-brand ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  margin: 0 0 0 auto;
+  padding: 0;
+  min-height: 52px;
+  position:static;
+  flex-wrap: wrap;
+}
+.site-brand li {
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.site-brand li:hover {
+  border-bottom: 2px solid #2dd4bf;
+    box-shadow: 0 1px 6px 0 rgba(45, 212, 191, 0.7);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+hr{
+  border: 0;
+  height: 1px;
+  background-color: #132f2f;
+  width: 100%;
+}
+#intro {
+  margin:0px;
+}
+#intro h1{
+  margin:0%;
+  padding: 0%;
+}
+#intro h2{
+  background-color: #0a1e1e;
+}
+#intro h2 span{
+  margin-top: 20px;
+  padding: 0;
+  background-color: #0a1e1e;
+}
+.Clickable {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 0 0 0 auto;
+  padding: 5px;
+  text-decoration: none;
+  color:rgb(149, 184, 177);
+}
+
+.Clickable li .arrow {
+    display: inline-block;
+    transform: translate(6px, 6px);
+    color:  rgba(255, 255, 255, 0.8);
+    position: relative;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: #0a1e1e;
+}
+
+.Clickable li {
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 400;
+  padding: 15px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.1s ease;
+  margin: 0;
+}
+.Clickable li a {
+  list-style: none;
+  display: inline-block;      
+  color: rgb(221, 225, 224);
+  text-decoration: none;            
+  transition: border-color 0.5s ease, box-shadow 0.5s ease;
+}
+.Clickable li:hover {
+  border-color: #2dd4bf;
+  box-shadow: 0 0 8px 2px rgba(45, 212, 191, 0.6),
+              0 0 16px 4px rgba(45, 212, 191, 0.3);
+              border-radius: 20px;
+}
+.Skills ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  margin: 0 0 0 auto;
+  padding: 0;
+  min-height: 52px;
+}
+.intro-logo {
+  float: right;
+  margin-left: 15px;
+  width:350px;
+  height: auto; 
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#intro p{
+  font-size: 15px;
+  text-align: left;
+}
+#contents{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
