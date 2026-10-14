@@ -1,21 +1,145 @@
 <!Doctype html>
+    <html lang="en">
+        
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="styles.css" >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Geist+Pixel&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 
-<html>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <a href="css/styles.css" rel="styles"></a>
-
+    <title> WELCOME TO MY PORTFOLIO</title>
+    <link class="favicon" href="image/faviconV.png" rel="icon" type="image/png">
 </head>
 
-<header>
-    <div id="header">
-        <div>
-            <title> Welcome to my portfolio</title>
-            <h1> Welcome to My Portfolio</h1>
+<body>
+    <div id="header"> 
+        <header class="topbar">
+        <div class="site-brand">
+            <div class="topbar-brand">
+            <img src="image/logoV.png" alt="Logo" class="brand-logo">
+            <h2><span>Abegail Talplacido</span></h2>
+            </div>  
+            <ul nav a href="styles.css">
+                <li a href="/clickable/home.html" class="home"> Home</li>
+                <li a href="/clickable/about.html" class="about"> About</li>
+                <li a href="/clickable/services.html" class="services"> Services</li>
+                <li a href="/clickable/contact.html" class="con"> Contact</li>
+            </ul>
+        </div>
+    </div>
+
+    </header>
+
+    <div class="welcome"> 
+        <video autoplay muted loop playsinline>
+            <source src="url/aurora.mp4" type="video/mp4">
+        </video>
+    <div id="contents"><h2>WELCOME TO MY PORTFOLIO</h2></div>
+    </div>
+    <hr>
+
+    <div id="introduction">
+        <div class="intro">
+         <h2><span>Hi, I'm</span></h2><h1>Abby</h1>
+            <h3>Full Stack Developer</h3>
+            <p>I build modern, responsive, and scalable web applications that turn ideas into real solutions. With a passion for clean code and great user experiences, 
+            I bring your vision to life from front-end to back-end.</p>
+
+          <ul class="Clickable">    
+            <li><a class="work" href="clickable/work.html" target="_blank rel="noopener noreferrer">View my work</a></li>
+           <li></li><a class="cv" href="clickable/cv.html"> Check my CV</a></li>
+         </ul>
+        </div>
+        
+   </div>
+
+    <hr>
+
+    <div id="intro">
+        <img src="image/about.logo.png" alt="about-logo" type="image/png" rel="about-logo" class="about-logo">
+        <div class="about">
+            <h3> About Me</h3>
+            <p>I'm a full stack developer with a strong foundation in both front-end and back-end technologies. 
+            <br> I enjoy solving problems, learning new tools, and building projects that make an impact. 
+            <br>I'm always open to new opportunities and excited to collaborate on innovative ideas.</p>
         </div>
 
-    </div>
-</header>
+        <div class="skills">
+            <ul>
+                <li>Problem Solver <br> Finds practical solutions</li>
+                <li>Team Player <br> Works well with others</li>
+                <li>Always Learning <br> Stays updated with tech</li>
+            </ul>
+        </div>
 
+        <div id="tech">
+            <h3>Tech Stack</h3>
+                <ul class="stack">
+                    <span><img src="image/javascript_logo.png" alt="js-logo" rel="js-logo" ><li> JavaScript </li></span>    
+                    <span><img src="image/html_logo.png" alt="html-logo" rel="html-logo" ><li> HTML </li></span>
+                    <span><img src="image/css_logo.png" alt="css-logo" rel="css-logo" ><li> CSS </li></span>
+                    <span><img src="image/csharp_logo.png" alt="csharp-logo" rel="csharp-logo" ><li> C#</li></span>
+                    <span><img src="image/nodejs_logo.png" alt="nodejs-logo" rel="nodejs-logo" ><li> Node.js </li></span>
+                    <span><img src="image/react_logo.png" alt="react-logo" rel="react-logo"><li> React</li></span>
+                </ul>
+        </div>
+    </div>
+
+    <div id="services">
+        <h3>Services</h3>
+        <dl class="Services">
+            <dt>Full Stack Development Services </dt>
+            <dd>From idea to deployment, I provide end-to-end development solutions tailored to your needs.</dd>
+            <dt>Web Application Development </dt>
+            <dd>Custom web apps built with modern technologies and best practices.</dd>
+            <dt>Responsive Front-End Design </dt>
+            <dd>Beautiful, fast, and mobile-friendly interfaces.</dd>
+            <dt>API Development & Integration </dt>
+            <dd>Connect your systems with secure and scalable APIs.</dd>
+            <dt>Back-End Development</dt>
+            <dd>Robust and reliable server-side solutions with Node.js, .NET, and more.</dd>
+    </div>
+
+    <div class="projects">
+        <h3> My Works</h3>
+        <p> Here are some projects I've built using modern technologies</p>
+        <a class="proj-one" href="image/"></a>
+        <a class="proj-two" href="image/"></a>
+        <a class="proj-three" href="image/"></a>
+    </div>
+
+    <div class="contact">
+        <h3>Let's work together</h3>
+            <p> Have a project in mind or just want to say hi? <br> Feel free to reach me out through various ways!</p>
+            <h4> Contact</h4>
+        <ul>
+            <span><a href=""><img src="" alt=""></span><li>Github</li></a>
+            <span><a href=""><img src="" alt=""></span><li>Email</li></a>
+            <span><a href=""><img src="" alt=""></span><li>Viber</li></a>
+        </ul>   
+    </div>
+         
+    </div>
+            
+</body>
+
+<footer> &copy; 2026 Abegail Talplacido Portfolio. All rights reserved</footer>
+
+</html>
 
 </html>
